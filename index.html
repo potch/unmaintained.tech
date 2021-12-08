@@ -7,20 +7,30 @@
     <style>
       body {
         margin: 0 auto;
-        text-align: center;
         max-width: 800px;
         font-family: sans-serif;
         padding: 0 1em;
         line-height: 1.4;
       }
       pre {
-        background: #eee;
+        background-color: #eee;
         padding: .5em 1em;
         display: block;
         margin: 1em 0;
-        text-align: left;
         overflow: auto;
       }
+      @media (prefers-color-scheme:dark) {
+        body {
+          background-color: #111;
+          color: #eee;
+        }
+        pre {
+          background-color: #222;
+        }
+       a {
+         color: rgb(28, 165, 255)
+       }
+    }
     </style>
   </head>
   <body>
